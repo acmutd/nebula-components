@@ -1,0 +1,71 @@
+.storybook-div {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.wider {
+  width: 10vw;
+}
+
+#course {
+  padding-top: 22px;
+  width: 20vw;
+}
+
+.storybook-div .course {
+  width: 75%;
+}
+
+.storybook-div .grade {
+  width: 25%;
+}
+
+.storybook-div--light {
+  color: #333;
+  background-color: #FFF;
+}
+
+.storybook-div--dark {
+  color: #FFF;
+  background-color: #333;
+}
+.storybook-div--small {
+  font-size: 12px;
+  padding: 10px 16px;
+  width: 100px;
+  height: 100px;
+  flex-direction: column;
+}
+
+.storybook-div--small .grade {
+  width: auto;
+}
+
+.storybook-div--small .course {
+  width: auto;
+}
+
+.storybook-div--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+  height: 100px;
+  width: 400px;
+}
+.storybook-div--large {
+  font-size: 16px;
+  padding: 12px 24px;
+  width: 400px;
+  height: 400px;
+}
